@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    tools:context="com.qnally.shappapp.Login">
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="253dp"
+        android:layout_height="84.3dp"
+        android:layout_marginBottom="546dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="109dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="@dimen/email_field_width"
+        android:layout_height="@dimen/email_field_height"
+        android:layout_marginBottom="410dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="348dp"
+        android:background="@drawable/email"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="2dp"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:cursorVisible="false"/>
+
+    <EditText
+        android:id="@+id/passwdField"
+        android:layout_width="@dimen/passwd_field_height"
+        android:layout_height="@dimen/passwd_field_width"
+        android:layout_marginBottom="349dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="409dp"
+        android:background="@drawable/password"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingEnd="2dp"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:cursorVisible="false"/>
+
+    <ImageButton
+        android:id="@+id/skip_button"
+        android:layout_width="91dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="292dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="434dp"
+        android:contentDescription="@string/skip_sign_in_btn"
+        android:src="@drawable/forgot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="193dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/signinbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="201dp"
+        android:layout_height="@dimen/dont_have_acct_txt_height"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/varela_round"
+        android:gravity="center_horizontal"
+        android:text="Don't have an account?"
+        android:textAlignment="center"
+        android:textColor="#505050"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbtn"
+        />
+
+    <Button
+        android:id="@+id/create_new_acct"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="@dimen/create_acct_width"
+        android:layout_height="40dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/primary_bg"
+        android:fontFamily="@font/varela_round"
+        android:text="@string/new_acct_btn"
+        android:textAlignment="center"
+        android:textColor="#234668"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

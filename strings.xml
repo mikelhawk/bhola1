@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShappApp</string>
+    <string name="app_logo">full logo</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="new_acct_btn">Create new account</string>
+    <string name="skip_sign_in_btn">Skip Sign In</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="address_hint">Street Address</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+    <string name="zipcode_hint">Zip Code</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="new_acct_header">Create New Account</string>
+    <string name="autocomplete_key">AIzaSyDrTxxoabmSo36G7H2Ri9VOBgO-G5fV3Ak</string>
+</resources>
